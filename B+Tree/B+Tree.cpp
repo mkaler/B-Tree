@@ -32,6 +32,8 @@ int main(){
 					}
 					else
 						std::cout << "Non e' possibile creare un nuovo albero" << std::endl;
+					system("pause");
+					system("cls");
 					break;
 				}
 			case 2:
@@ -49,6 +51,8 @@ int main(){
 				}
 				else
 					std::cout << "L'albero non esiste " << std::endl;
+				system("pause");
+				system("cls");
 				break;
 				}
 			case 3:
@@ -58,6 +62,8 @@ int main(){
 						std::cout << "la chiave inserita non e' presente" << std::endl;
 					else
 						std::cout << "la chiave inserita e' stata trovata"<< std::endl;
+					system("pause");
+					system("cls");
 					break;
 				}
 			case 4:
@@ -70,11 +76,15 @@ int main(){
 						bTree->remove(value);
 						std::cout << "La chiave " << value << "e' stata eliminata" << std::endl;
 					}
+					system("pause");
+					system("cls");
 					break;
 				}
 			case 5:
 				{
 					std::cout << "Le chiavi: "; bTree->traverse(); std::cout << std::endl;
+					system("pause");
+					system("cls");
 					break;
 				}
 			case 6:
